@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FBFFE4;
+    color: #3D8D7A;
+}
+#about{
+    color: rgb(237, 207, 149);
+}
+.logo{
+    color: rgb(237, 207, 149);
+    font-size: 1.5rem;
+}
+
+.navbar{
+    background-color: #3D8D7A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+}
+
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.nav-items a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.nav-items a:hover{
+    color: rgb(237, 207, 149);
+    font-size: 1.35rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftSection{
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#image{
+    width: 120%;
+    height:100vh;
+}
+
+rightSection {
+    width: 65%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.rightSection h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.rightSection p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.rightSection p:nth-child(odd) {
+    font-weight: bold;
+}
